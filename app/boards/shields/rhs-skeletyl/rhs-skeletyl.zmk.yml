@@ -1,0 +1,14 @@
+file_format: "1"
+id: rhs-skeletyl
+name: RHS-Skeletyl
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - rhs-skeletyl_left
+  - rhs-skeletyl_right
